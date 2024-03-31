@@ -1,22 +1,29 @@
-export const data = [
+import reaction from '../assets/icon-reaction.svg';
+import memory from '../assets/icon-memory.svg';
+import verbal from '../assets/icon-verbal.svg';
+import visual from '../assets/icon-visual.svg';
+
+const data = [
 	{
 		category: 'Reaction',
 		score: 80,
-		icon: './assets/images/icon-reaction.svg',
+		icon: reaction,
 	},
 	{
 		category: 'Memory',
 		score: 92,
-		icon: './assets/images/icon-memory.svg',
+		icon: memory,
 	},
 	{
 		category: 'Verbal',
 		score: 61,
-		icon: './assets/images/icon-verbal.svg',
+		icon: verbal,
 	},
 	{
 		category: 'Visual',
 		score: 72,
-		icon: './assets/images/icon-visual.svg',
+		icon: visual,
 	},
 ];
+
+export default data;
