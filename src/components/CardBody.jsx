@@ -1,4 +1,3 @@
-import React from 'react';
 import data from '../data/Data';
 
 const CardBody = () => {
@@ -7,15 +6,23 @@ const CardBody = () => {
 			<h2>Summary</h2>
 			<div className='grid grid-cols-1 gap-y-4'>
 				{data.map((item) => {
-					const { category, score, icon, colorFrom, color } = item;
+					const { category, icon, score } = item;
 					return (
 						<div
-							key={score}
-							className='card flex flex-row rounded-xl shadow-sm p-4'
+							key={category}
+							className={`flex w-full justify-between align-center p-6 shadow-lg outline outline-1 outline-red-700 rounded-lg bg-gradient-to-r from-[rgba(255,255,255,0.95)] ${'to-[hsla(0,89%,65%,0.15)] 100%'}
+								
+							`}
 						>
-							<img src={icon} alt={category} />
-							<p className={`ml-4 ${'text-[color]'}`}>{category}</p>
-							<span>{score}/100</span>
+							<header className='flex gap-x-2'>
+								<img src={icon} alt='reaction' />
+								<h2 className={`capitalize ${'text-[color]'}`}>{category}</h2>
+							</header>
+							<div className=''>
+								<p>
+									<span className='text-black'>{score}</span>/100
+								</p>
+							</div>
 						</div>
 					);
 				})}

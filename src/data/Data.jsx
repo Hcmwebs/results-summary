@@ -8,29 +8,37 @@ const data = [
 		category: 'Reaction',
 		score: 80,
 		icon: reaction,
-		colorFrom: 'rgba(255, 255, 255, 0.95)',
-		color: '#F55555',
+		color: 'hsl(0,89%,65%)',
+		bgColor: 'hsla(0,89%,65%,0.15)',
+		className:
+			'flex w-full justify-between align-center p-6 shadow-lg outline outline-1 outline-red-700 rounded-lg bg-gradient-to-r from-[rgba(255,255,255,0.95)] to-[hsla(0,89%,65%,0.15)] 100%',
 	},
 	{
 		category: 'Memory',
 		score: 92,
 		icon: memory,
-		colorFrom: 'rgba(255, 255, 255, 0.95)',
-		color: '#FFB21E',
+		color: 'hsl(39, 100%, 56%)',
+		bgColor: 'hsla(39,100%,56%,0.15)',
+		className:
+			'flex w-full justify-between align-center p-6 shadow-lg outline outline-1 outline-red-700 rounded-lg bg-gradient-to-r from-[rgba(255,255,255,0.95)] to-[hsla(39,100%,56%,0.15)] 100%',
 	},
 	{
 		category: 'Verbal',
 		score: 61,
 		icon: verbal,
-		colorFrom: 'rgba(255, 255, 255, 0.95)',
-		color: '#00BB8F',
+		color: 'hsla(166, 100%, 37%, 1.0)',
+		bgColor: 'hsla(166, 100%, 37%, 0.15)',
+		className:
+			'flex w-full justify-between align-center p-6 shadow-lg outline outline-1 outline-red-700 rounded-lg bg-gradient-to-r from-[rgba(255,255,255,0.95)] to-hsla(166, 100%, 37%, 0.15)] 100%',
 	},
 	{
 		category: 'Visual',
 		score: 72,
 		icon: visual,
-		colorFrom: 'rgba(255, 255, 255, 0.95)',
-		color: '#1125D6',
+		color: 'hsla(234, 85%, 45%,1.0)',
+		bgColor: 'hsla(234, 85%, 45%,0.15)',
+		className:
+			'flex w-full justify-between align-center p-6 shadow-lg outline outline-1 outline-red-700 rounded-lg bg-gradient-to-r from-[rgba(255,255,255,0.95)] to-[hsla(234, 85%, 45%,0.15)] 100%',
 	},
 ];
 
