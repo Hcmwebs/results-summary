@@ -1,4 +1,5 @@
 import data from '../data/Data';
+import Button from './Button';
 
 const CardBody = () => {
 	return (
@@ -6,7 +7,7 @@ const CardBody = () => {
 			<h2>Summary</h2>
 			<div className='grid grid-cols-1 gap-y-4'>
 				{data.map((item) => {
-					const { category, icon, score } = item;
+					const { category, icon, score, bgColor } = item;
 					return (
 						<div
 							key={category}
@@ -27,6 +28,7 @@ const CardBody = () => {
 					);
 				})}
 			</div>
+			<Button />
 		</article>
 	);
 };
