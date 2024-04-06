@@ -1,5 +1,4 @@
 import data from '../data/Data';
-import Button from './Button';
 
 const CardBody = () => {
 	return (
@@ -28,7 +27,6 @@ const CardBody = () => {
 					);
 				})}
 			</div>
-			<Button />
 		</article>
 	);
 };
