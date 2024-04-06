@@ -1,4 +1,4 @@
-import { Button, CardBody, CardHeader } from './index';
+import { CardBody, CardFooter, CardHeader } from './index';
 
 const Card = () => {
 	return (
@@ -6,7 +6,7 @@ const Card = () => {
 			<section className='bg-white w-full max-w-[375px] md:max-w-[736px] flex flex-col justify-center items-center pb-8'>
 				<CardHeader />
 				<CardBody />
-				<Button />
+				<CardFooter />
 			</section>
 		</main>
 	);
