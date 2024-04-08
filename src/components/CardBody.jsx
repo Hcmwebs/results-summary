@@ -6,17 +6,12 @@ const CardBody = () => {
 			<h2>Summary</h2>
 			<div className='grid grid-cols-1 gap-y-4'>
 				{data.map((item) => {
-					const { category, icon, score, bgColor } = item;
+					const { category, icon, score, className } = item;
 					return (
-						<div
-							key={category}
-							className={`flex w-full justify-between align-center p-6 shadow-lg outline outline-1 outline-red-700 rounded-lg bg-gradient-to-r from-[rgba(255,255,255,0.95)] ${'to-[hsla(0,89%,65%,0.15)] 100%'}
-								
-							`}
-						>
+						<div key={category} className={className}>
 							<header className='flex gap-x-2'>
 								<img src={icon} alt='reaction' />
-								<h2 className={`capitalize ${'text-[color]'}`}>{category}</h2>
+								<h2 className={`${'text-[color]'}`}>{category}</h2>
 							</header>
 							<div className=''>
 								<p>
