@@ -13,9 +13,9 @@ const CardBody = () => {
 								<img src={icon} alt='reaction' />
 								<h2 className={`${'text-[color]'}`}>{category}</h2>
 							</header>
-							<div className=''>
-								<p>
-									<span className='text-black'>{score}</span>/100
+							<div>
+								<p className='text-slate-500'>
+									<span className='text-black'>{score}</span> / 100
 								</p>
 							</div>
 						</div>
