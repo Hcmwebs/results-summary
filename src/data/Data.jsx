@@ -11,7 +11,7 @@ const data = [
 		color: 'hsl(0,89%,65%)',
 		bgColor: 'hsla(0,89%,65%,0.15)',
 		className:
-			'flex w-full justify-between align-center p-6 shadow-lg outline outline-1 outline-red-700 rounded-lg bg-gradient-to-r from-[rgba(255,255,255,0.95)] to-[hsla(0,89%,65%,0.15)] 100%',
+			'flex w-full justify-between align-center p-6 shadow-lg rounded-lg text-[hsl(0,89%,65%)] bg-[hsla(0,89%,65%,0.15)]',
 	},
 	{
 		category: 'Memory',
@@ -20,25 +20,25 @@ const data = [
 		color: 'hsl(39, 100%, 56%)',
 		bgColor: 'hsla(39,100%,56%,0.15)',
 		className:
-			'flex w-full justify-between align-center p-6 shadow-lg outline outline-1 outline-red-700 rounded-lg bg-gradient-to-r from-[rgba(255,255,255,0.95)] to-[hsla(39,100%,56%,0.15)] 100%',
+			'flex w-full justify-between align-center p-6 shadow-lg rounded-lg text-[hsl(39,100%,56%)] bg-[hsla(39,100%,56%,0.15)]',
 	},
 	{
 		category: 'Verbal',
 		score: 61,
 		icon: verbal,
-		color: 'hsla(166, 100%, 37%, 1.0)',
-		bgColor: 'hsla(166, 100%, 37%, 0.15)',
+		color: 'hsl(166, 100%, 37%)',
+		bgColor: 'hsla(166,100%,37%,0.15)',
 		className:
-			'flex w-full justify-between align-center p-6 shadow-lg outline outline-1 outline-red-700 rounded-lg bg-gradient-to-r from-[rgba(255,255,255,0.95)] to-hsla(166, 100%, 37%, 0.15)] 100%',
+			'flex w-full justify-between align-center p-6 shadow-lg rounded-lg text-[hsl(166, 100%, 37%)] bg-[hsla(166,100%,37%,0.15)]',
 	},
 	{
 		category: 'Visual',
 		score: 72,
 		icon: visual,
 		color: 'hsla(234, 85%, 45%,1.0)',
-		bgColor: 'hsla(234, 85%, 45%,0.15)',
+		bgColor: 'hsla(234,85%,45%,0.15)',
 		className:
-			'flex w-full justify-between align-center p-6 shadow-lg outline outline-1 outline-red-700 rounded-lg bg-gradient-to-r from-[rgba(255,255,255,0.95)] to-[hsla(234, 85%, 45%,0.15)] 100%',
+			'flex w-full justify-between align-center p-6 shadow-lg rounded-lg text-[hsl(234,85%,45%)] bg-[hsla(234,65%,45%,0.15)]',
 	},
 ];
 
