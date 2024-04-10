@@ -2,16 +2,14 @@ const CardHeader = () => {
 	return (
 		<>
 			<header className='bg-gradient-to-b from-[hsla(252,100%,67%,1)] to-[hsla(241,81%,54%,1)] 100% w-full grid grid-cols-1 place-items-center gap-y-6 py-8 rounded-b-[2rem] '>
-				<h1 className='text-center text-[#cac9ff] font-bold text-lg'>
-					Your Results
-				</h1>
-				<div className='w-36 h-36 rounded-full flex flex-col justify-center items-center bg-blue-800'>
-					<h2>76</h2>
-					<p>of 100</p>
+				<h1 className='para-text font-bold'>Your Results</h1>
+				<div className='w-36 h-36 rounded-full flex flex-col justify-center items-center bg-gradient-to-b from-[#4D21C9] to-[rgba(37,33,201,0.00)] 100%'>
+					<h2 className='text-[56px] font-bold text-white'>76</h2>
+					<p className='para-text'>of 100</p>
 				</div>
-				<div className='text-center'>
-					<h3 className='text-lg capitalize'>great</h3>
-					<p>
+				<div className='grid grid-cols-1 place-items-center gap-y-2'>
+					<h3 className='text-2xl capitalize text-white'>great</h3>
+					<p className='para-text px-14 font-normal text-base'>
 						You scored higher than 65% of the people who have taken these tests.
 					</p>
 				</div>

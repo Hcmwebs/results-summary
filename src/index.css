@@ -7,3 +7,9 @@
 		font-family: 'Hanken Grotesk', sans-serif;
 	}
 }
+
+@layer components {
+	.para-text {
+		@apply text-lg text-[#cac9ff] text-center;
+	}
+}
