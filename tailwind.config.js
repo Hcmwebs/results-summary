@@ -13,7 +13,7 @@ export default {
 					secondary: 'hsla(241,81%,54%,1)',
 					accent: '#37cdbe',
 					neutral: 'hsla(241,100%,89%,1)',
-					'base-100': 'hsla(0,0%,100%,1)',
+					'base-100': '#ECF2FF',
 					black: 'hsla(223,30%,27,1)',
 				},
 			},

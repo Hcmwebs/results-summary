@@ -1,4 +1,5 @@
 import data from '../data/Data';
+import { Button } from './index';
 
 const CardBody = () => {
 	return (
@@ -22,6 +23,9 @@ const CardBody = () => {
 					);
 				})}
 			</div>
+			<footer className='w-full grid, grid-cols-1 place-items-center px-6'>
+				<Button />
+			</footer>
 		</article>
 	);
 };
