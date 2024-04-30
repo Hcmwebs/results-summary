@@ -1,7 +1,7 @@
 const CardHeader = () => {
 	return (
 		<>
-			<header className='bg-gradient-to-b from-[hsla(252,100%,67%,1)] to-[hsla(241,81%,54%,1)] 100% w-full grid grid-cols-1 place-items-center gap-y-6 py-8 rounded-b-[2rem] '>
+			<header className='bg-gradient-to-b from-[hsla(252,100%,67%,1)] to-[hsla(241,81%,54%,1)] 100% w-full md:h-full grid grid-cols-1 place-items-center gap-y-6 py-8 rounded-b-[2rem] md:rounded-[2rem] '>
 				<h1 className='para-text font-bold'>Your Results</h1>
 				<div className='w-36 h-36 rounded-full flex flex-col justify-center items-center bg-gradient-to-b from-[#4D21C9] to-[rgba(37,33,201,0.00)] 100%'>
 					<h2 className='text-[56px] font-bold text-white'>76</h2>
