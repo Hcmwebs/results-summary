@@ -3,7 +3,7 @@ import { Button } from './index';
 
 const CardBody = () => {
 	return (
-		<article className='w-full grid grid-col-1 px-6 bg-white gap-y-6'>
+		<article className=' h-full w-full grid grid-col-1 px-6 bg-white gap-y-6 md:rounded-r-[2rem]'>
 			<h2 className='font-bold text-[#303B59] text-lg'>Summary</h2>
 			<div className='grid grid-cols-1 gap-y-4'>
 				{data.map((item) => {
@@ -23,7 +23,7 @@ const CardBody = () => {
 					);
 				})}
 			</div>
-			<footer className='w-full grid, grid-cols-1 place-items-center px-6'>
+			<footer className='w-full grid, grid-cols-1 place-items-center'>
 				<Button />
 			</footer>
 		</article>
