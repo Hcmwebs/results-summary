@@ -3,7 +3,7 @@ import { Button } from './index';
 
 const CardBody = () => {
 	return (
-		<article className='w-full h-full grid grid-col-1 px-8pb-8 bg-white gap-y-6 md:rounded-r-[2rem]'>
+		<article className='w-full h-full grid grid-col-1 px-8 pb-8 bg-white gap-y-6 md:rounded-r-[2rem]'>
 			<h2 className='font-bold text-[#303B59] text-lg md:text-2xl mt-8'>
 				Summary
 			</h2>
