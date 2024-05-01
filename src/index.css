@@ -11,3 +11,9 @@
 		@apply p-0 m-0 min-h-screen bg-[#edf3ff];
 	}
 }
+
+@layer components {
+	.para-text {
+		@apply text-center  font-medium text-base md:text-lg;
+	}
+}
