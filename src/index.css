@@ -14,6 +14,6 @@
 
 @layer components {
 	.para-text {
-		@apply text-center  font-medium text-base md:text-lg;
+		@apply text-center font-medium text-base md:text-lg;
 	}
 }
