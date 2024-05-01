@@ -9,7 +9,7 @@ const CardHeader = () => {
 				</div>
 				<div className='grid grid-cols-1 place-items-center gap-y-2'>
 					<h3 className='text-2xl md:text-3xl capitalize text-white'>great</h3>
-					<p className='text-center px-14 font-medium text-base md:text-lg'>
+					<p className='px-14 para-text'>
 						You scored higher than 65% of the people who have taken these tests.
 					</p>
 				</div>
